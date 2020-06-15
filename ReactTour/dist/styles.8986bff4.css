@@ -1,0 +1,108 @@
+h3 {
+    margin-right : 80;
+    font-family : "Lucida Console", Monaco, monospace;
+    color : white;
+}
+
+nav {
+    position : fixed;
+    top : 0;
+    width : 99%
+}
+
+
+ul {
+    display : flex;
+    flex-direction : row;
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+    overflow : hidden;
+    background-color: black;
+}
+
+li {
+    margin-left : 30;
+}
+
+li a {
+    margin-top : 10;
+    font-family : "Lucida Console", Monaco, monospace;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #0b03ff;
+}
+
+h1 {
+    text-align : center;
+    font-size : 70px;
+}
+
+#index {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+main {
+    padding : 10px;
+    font-family : "Comic Sans MS", Monaco, monospace;
+    color : white;
+    background-color : black;
+    max-width : 1000px;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top : 100;
+}
+
+body {
+    background-color : #e8e7f5;
+}
+
+#grid {
+    display : grid;
+    grid-template-columns: auto 450;
+    grid-gap : 2rem;
+    text-align : right;
+}
+
+button {
+    background-color : #b1b1ac;
+    font-family : "Comic Sans MS", Monaco, monospace;
+    font-size : 20px;
+}
+
+#email, #fname, #lname, #hear, #submit {
+    height : 40;
+}
+
+#contact {
+    text-align : center;
+}
+
+table, th, td {
+    color : white;
+    text-align : center;
+    font-size : 30px;
+    border : 3px solid grey;
+}
+
+td {
+    padding : 10px;
+}
+
+text {
+    font-family : font-family : "Comic Sans MS", Monaco, monospace;
+}
+
+
+
+/*# sourceMappingURL=/styles.8986bff4.css.map */
